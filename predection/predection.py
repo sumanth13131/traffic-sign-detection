@@ -9,7 +9,7 @@ lis=['20','30','50','60','70','80','100','120','bicycles_crossing','bumpy_road',
 ###
 ##
 #
-img=cv2.imread('bumpy_road.png',0)
+img=cv2.imread('/test_images/bumpy_road.png',0)
 cv2.imshow('frame',img)
 img1=cv2.resize(img,(128,128))
 print(img1.shape)
